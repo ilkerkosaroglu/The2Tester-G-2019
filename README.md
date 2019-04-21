@@ -14,7 +14,7 @@ Currently supporting both Linux & Windows.
 
 -------
 
-(python2 & python3 support added) 
+(python2 & python3 support added)   
 to run: 
 ```sh
 python interactive.py {a.out}

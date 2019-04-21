@@ -10,12 +10,11 @@ _made by ilkerkosaroglu_
 
 ------
 
-Currently supporting Linux
-(windows will be added) 
+Currently supporting both Linux & Windows.
 
 -------
 
-(use python2 for now)  
+(python2 & python3 support added) 
 to run: 
 ```sh
 python interactive.py {a.out}

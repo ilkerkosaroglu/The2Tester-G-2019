@@ -1,4 +1,7 @@
-# The2Tester-G-2019
+# The2Tester-G-2019  
+  
+(CENG140, Programming in C)  
+  
 Tester for the 2019 THE-2 for Section 3 (Göktürk),   
 _made by ilkerkosaroglu_
   

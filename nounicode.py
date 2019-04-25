@@ -101,6 +101,8 @@ def check(orgst,st2):
 """
 def checksimple(st,st2):
     return (simplify(eval(st)-eval(st2))==0)
+def simple(st,st2):
+    return (simplify(eval(st)-eval(st2)))
 
 def y(st):
     return Fore.YELLOW+Style.BRIGHT+st+res()
@@ -133,6 +135,8 @@ try:
         else:
             inp=input("eq #{}:\n".format(count))
         if not inp:continue
+        if inp=="A" or inp=="a":
+            inp="(X^2-1)*tan - ln^2 /X"
         inp=reverseParse(inp)
         # time.sleep(0.5)
         print("\n"*3)
@@ -184,6 +188,8 @@ try:
             corcount+=1
         else:
             print(r("-----\nWrong\n-----\n"))
+            print(y("Difference:"),end="")
+            pprint(simple(derEq,temp2),use_unicode=False)
             wrocount+=1
         time.sleep(0.5)
 except EOFError:
